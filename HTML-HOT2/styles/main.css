@@ -1,0 +1,151 @@
+body{
+    margin-bottom: 75px;
+    background-color: aliceblue;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+#logo {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.page1Para {
+    font-size: 2rem;
+}
+
+.page1H2 {
+    font-size: 3.5rem;
+}
+
+article p {
+    font-size: 1.5rem;
+}
+
+#nav_list ul {
+    list-style: none;
+    text-align: left; 
+    position: absolute; 
+    float: left;    
+    margin-left: 80px;
+    padding-right: 10px;
+    top: 2%;
+    height: 100vh;
+    width: 900px;
+}
+
+#nav_list ul li {
+    float: left;
+    
+}
+
+#nav_list ul li a {
+    display: inline-block;
+    width: 160px;
+    height: 110px;
+    text-decoration: none;
+}
+
+ ul a:active {
+    color: black;
+}
+
+  ul a:hover, a:visited {
+    color: rgb(146, 3, 3);
+}
+
+ ul a:link {
+    color: rgba(136, 179, 67, 0.801);
+}
+
+.mt-4 p-5 bg-primary text-white {
+    background-color: red;
+}
+
+header h1 {
+    margin-top: 100px;
+    padding: 15px;
+    text-align: left;
+}
+
+p {
+    margin-left: 15px;
+    padding: 2px;
+}
+
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+
+}
+
+main h1 {
+    font-size: 170%;
+    margin-top: 0;
+    column-span: all;
+
+}
+
+main p {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+body img {
+    margin-left: 15px;
+    float: none;
+}
+
+#img1 {
+    background-color: lightgrey;
+}
+
+#img2 {
+    background-color: lightblue;
+}
+
+#img3 {
+    background-color: lightpink;
+}
+
+#img4 {
+    background-color: lightcyan;
+}
+
+#img5 {
+    background-color: lightsalmon;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+
+header img {
+    float: right;
+}
+
+#content {
+    width: 100%;
+}
+
+
+
+.align-left {float: left;}
+.align-right {float: right;}
+
+ul.star {
+    list-style-type: hiragana;
+}
